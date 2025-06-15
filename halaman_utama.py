@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from CONVERT_TO_PKL.feature_importance import show_feature_importance_page
+from feature_importance import show_feature_importance_page
 from overview import show_overview
 from song_recommendation import show_song_recommendation
 from favorite_song_prediction import show_label_analysis
