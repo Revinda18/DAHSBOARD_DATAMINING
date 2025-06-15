@@ -6,7 +6,7 @@ import joblib
 import os
 
 # Load dataset
-df = pd.read_csv("DATASET/dataset_final.csv")
+df = pd.read_csv("ataset_final.csv")
 
 # Daftar fitur yang digunakan
 fitur_model = [
