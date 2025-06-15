@@ -1,9 +1,9 @@
 import pandas as pd
 
 # Load dataset dari CSV
-df = pd.read_csv(r"D:\SEMESTER 6\PENGGALIAN DATA\DASHBOARD\DATASET\dataset_final.csv")
+df = pd.read_csv(r"dataset_final.csv")
 
 # Simpan dataset ke file pickle (.pkl)
-df.to_pickle(r"D:\SEMESTER 6\PENGGALIAN DATA\DASHBOARD\FILE_PKL\dataset_final.pkl")
+df.to_pickle(r"dataset_final.pkl")
 
 print("Konversi CSV ke PKL selesai!")
