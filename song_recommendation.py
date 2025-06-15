@@ -6,9 +6,9 @@ import numpy as np
 
 @st.cache_resource
 def load_model_scaler():
-    model = joblib.load("D:/SEMESTER 6/PENGGALIAN DATA/DASHBOARD/FILE_PKL/model_spotify.pkl")
-    scaler = joblib.load("D:/SEMESTER 6/PENGGALIAN DATA/DASHBOARD/FILE_PKL/scaler_spotify.pkl")
-    feature_list = joblib.load("D:/SEMESTER 6/PENGGALIAN DATA/DASHBOARD/FILE_PKL/fitur_spotify.pkl")
+    model = joblib.load("model_spotify.pkl")
+    scaler = joblib.load("scaler_spotify.pkl")
+    feature_list = joblib.load("fitur_spotify.pkl")
     return model, scaler, feature_list
 
 def align_features(df_input, feature_list):
