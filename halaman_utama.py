@@ -11,7 +11,7 @@ st.set_page_config(page_title="Spotify Dashboard", layout="wide")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("dataset.csv")  # Gunakan path relatif jika file ada di repo yang sama
+    df = pd.read_csv("dataset_final.csv")  # Gunakan path relatif jika file ada di repo yang sama
     return df
 
 df = load_data()
