@@ -32,4 +32,12 @@ page = st.sidebar.radio("Pilih Halaman", [
 
 if page == "Overview Dashboard":
     show_overview(df)
-elif page =
+elif page == "Aplikasi Prediksi Kesukaan Lagu Spotify":
+    show_label_analysis(df)
+elif page == "Feature Importance":
+    show_feature_importance_page(df, model, fitur_model)
+elif page == "Rekomendasi Lagu":
+    show_song_recommendation(df)
+else:
+    st.title(f"Halaman {page} sedang dalam pengembangan")
+
